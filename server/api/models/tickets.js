@@ -1,11 +1,16 @@
 const dataStore = require('nedb-promise')
-const bw
+const { generateTicketNr, generateETA } = require('../utility/utility')
 const ticketDb = new dataStore({ filename: '../data/ticketsList.db', autoload: true })
 
 module.exports = {
     async createTicket(body) {
         const newTicket = {
-
+            eta: generateETA(),
+            orderNr: generateTicketNr(),
+            description: req.body.description,
+            location: req.body.location,
+            date: body.date,
+            start_time: body.start_time
         }
 
         const updateTicket = await ticketDb.insert(newTicket)
