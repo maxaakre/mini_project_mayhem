@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Events from "../views/Events.vue";
 import Staff from "../views/Staff.vue";
 import Admin from "../views/Admin.vue";
+import Buy from "../views/Buy.vue";
 
 Vue.use(VueRouter);
 
@@ -22,6 +23,14 @@ const routes = [
     name: "Admin",
     component: Admin,
   },
+
+
+  {
+    path: "/Buy",
+    name: "Buy",
+    component: Buy,
+
+ }  
 ];
 
 const router = new VueRouter({
