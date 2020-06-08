@@ -16,6 +16,9 @@
   margin: 0;
 }
 
+// Det här är det som tar bort dumma Bordersen
+html, body { margin: 0; padding: 0 }
+
 #nav {
   padding: 30px;
 
