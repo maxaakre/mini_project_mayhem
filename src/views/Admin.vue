@@ -13,8 +13,8 @@
         <div class="inputQuad">
           <input type="text" class="half" placeholder="From Time">
           <input type="text" class="half" placeholder="To Time">
-          <input type="text" class="half">
-          <input type="text" class="half">
+          <input type="text" class="half" placeholder="Tickets">
+          <input type="text" class="half" placeholder="Price">
         </div>
 
         <button>Add the Event</button>
