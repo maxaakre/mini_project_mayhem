@@ -1,6 +1,16 @@
 <template>
   <div class="wrapper">
-    <div class="list"></div>
+    <div class="list">
+      <div class="info">
+        <div><p>NAMN</p></div>
+        <div><p>VAR</p></div>
+        <div><p>ANTAL PLATSER</p></div>
+        <div><p>SÅLDA BILJETTER</p></div>
+        
+      </div>
+
+      <div class="events"></div>
+    </div>
     <div class="form">
       <h2>Add Event</h2>
 
@@ -13,8 +23,8 @@
         <div class="inputQuad">
           <input type="text" class="half" placeholder="From Time">
           <input type="text" class="half" placeholder="To Time">
-          <input type="text" class="half">
-          <input type="text" class="half">
+          <input type="text" class="half" placeholder="Tickets">
+          <input type="text" class="half" placeholder="Price">
         </div>
 
         <button>Add the Event</button>
@@ -43,6 +53,21 @@ export default {};
     height: 313px;
     border: 1px solid #000000;
     background: rgba(0, 0, 0, 0.3);
+
+    .info{
+        // border: 2px solid white; 
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+      p{
+        color:#F56B9A;
+      font-family: Fira Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      }
+      
+    }
   }
   .form {
     display: flex;
