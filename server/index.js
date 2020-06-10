@@ -4,7 +4,7 @@ const cors = require('core-js')
 const app = express();
 
 //assigning const value for port
-const port = 5000;
+const port = 6100;
 const api = require('./api')
 
 // routes tha handle requests

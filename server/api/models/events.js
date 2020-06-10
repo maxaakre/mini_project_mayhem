@@ -14,5 +14,12 @@ module.exports = {
             tickets: body.tickets
         });
 
-    }
+    },
+
+    async getEvent(eventId) {
+        return await eventDb.findById({ _id: eventId })
+    },
+    async getEventList() {
+        return await productDb.find({})
+    },
 }
