@@ -7,14 +7,20 @@
       <div class="input">
         <input type="text" class="ticketnumber" />
         <p>Biljett nummer</p>
-        <button>Verify ticket</button>
+        <button v-on="findTicket">Verify ticket</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    findTicket() {
+      return this.$store.state.tickets;
+    }
+  }
+};
 </script>
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
