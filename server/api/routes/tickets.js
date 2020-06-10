@@ -18,7 +18,7 @@ module.exports = function(router) {
     })
     router.post('/tickets/:id', async(req, res) => {
 
-        const ticket = await TicketList.create(req.body)
+        const ticket = await TicketList.createTicket(req.body)
         if (ticket) {
             res.status(200).json(ticket)
         } else {
