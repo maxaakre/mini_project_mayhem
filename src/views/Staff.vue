@@ -16,7 +16,7 @@
 <script>
 export default {};
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
