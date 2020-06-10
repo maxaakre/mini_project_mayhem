@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav"></div>
     <router-view />
   </div>
 </template>
@@ -11,8 +10,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: #232143;
+  color: #2c3e50;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
+// Det här är det som tar bort dumma Bordersen
+html, body { margin: 0; padding: 0 }
 
 #nav {
   padding: 30px;
