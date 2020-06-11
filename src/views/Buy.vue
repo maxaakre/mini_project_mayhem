@@ -1,26 +1,31 @@
 <template>
   <div class="wrapper">
-    <div class="content">
     
+    <div class="Heading">
       <h2>You are about to score some tickets to</h2>
-      <h3></h3>
+    </div>
+
       <div class="Artist-Name">
+            ARTIST
         </div>
        
         <div class="Event-Time">
+          TIME
         </div>
-       
+          
         <div class="Event-Place">
+          PLACE
         </div>
         
          <div class="Ticket-Pris">
+           PRIS
         </div>
         
 
 
         <button>Beställ</button>
       
-    </div>
+  
   </div>
 
 </template>
@@ -29,15 +34,15 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 
 body{
     background: rgb(60, 36, 61);
 }
 
 
- h2{
-     position: absolute;
+ .Heading{
+ position: absolute;
 width: 202px;
 height: 27px;
 left: 87px;
@@ -50,7 +55,7 @@ font-size: 19px;
 line-height: 23px;
 text-align: center;
 
-color: rgba(255, 255, 255, 0.8);
+color: rgba(245, 92, 92, 0.8);
 
  }
 
@@ -69,8 +74,8 @@ border-radius: 3px;
  position: absolute;
 width: 281px;
 height: 43px;
-left: 51px;
-top: 189px;
+left: 120px;
+top: 210px;
 
 font-family: Sansita One;
 font-style: normal;
@@ -90,8 +95,8 @@ color: #F56B9A;
   position: absolute;
 width: 284px;
 height: 25px;
-left: 49px;
-top: 234px;
+left: 120px;
+top: 274px;
 
 font-family: Fira Sans;
 font-style: normal;
@@ -109,8 +114,8 @@ color: #37AEAB;
   position: absolute;
 width: 272px;
 height: 37px;
-left: 55px;
-top: 257px;
+left: 120px;
+top: 288px;
 
 font-family: Fira Sans;
 font-style: italic;
@@ -131,7 +136,7 @@ position: absolute;
 width: 145px;
 height: 50px;
 left: 115px;
-top: 390px;
+top: 370px;
 
 font-family: Fira Sans;
 font-style: normal;
