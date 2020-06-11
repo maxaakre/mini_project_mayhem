@@ -73,6 +73,8 @@ export default {};
     border: 1px solid #000000;
     background: rgba(0, 0, 0, 0.3);
 
+
+    // borders exist to see wether all space has been used and is symmetrically alligned
     .info {
       // border: 2px solid white;
       display: flex;
