@@ -1,10 +1,10 @@
-import Vue from "vue";
-import Vuex from "vuex";
-import Axios from "axois";
+import Vue from "vue"
+import Vuex from "vuex"
+import Axios from "axois"
 
 const API "http://localhost:6001/api/tickets"
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
@@ -22,4 +22,4 @@ export default new Vuex.Store({
     },
   },
   modules: {},
-});
+})
